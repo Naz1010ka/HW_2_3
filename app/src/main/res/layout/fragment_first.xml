@@ -5,25 +5,16 @@
     android:layout_height="match_parent"
     tools:context=".FirstFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:text="0"
-        android:textSize="24sp" />
+        android:textSize="24dp" />
 
-    <Button
-        android:id="@+id/btn_next"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView"
-        android:layout_gravity="center|top"
-        android:layout_marginTop="120dp"
-        android:backgroundTint="@color/green"
-        android:text="NEXT"
-        android:textSize="24sp" />
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,7 +30,7 @@
             android:layout_marginEnd="96dp"
             android:backgroundTint="@color/teal_700"
             android:text="+1"
-            android:textSize="28sp" />
+            android:textSize="28dp" />
 
         <Button
             android:id="@+id/btn_minus"
@@ -47,7 +38,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/teal_700"
             android:text="-1"
-            android:textSize="28sp" />
+            android:textSize="28dp" />
     </LinearLayout>
 
 
